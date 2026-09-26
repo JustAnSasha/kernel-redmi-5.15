@@ -12,14 +12,14 @@ on:
         description: "Kernel source URL"
         required: true
         type: string
-        default: "https://github.com/JustAnSasha/kernel_redmi-5.15"
+        default: "https://github.com/JustAnSasha/kernel-redmi-5.15"
       kernelBranch:
         description: "Kernel branch"
         required: true
         type: choice
-        default: "shining"
+        default: "sapphiren-t-oss"
         options:
-          - "shining"
+          - "sapphiren-t-oss"
       kernelDevice:
         description: "Device (used for defconfig)"
         required: true
